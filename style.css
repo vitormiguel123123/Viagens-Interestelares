@@ -180,8 +180,13 @@ div.fogue img {
 div.text {
     width: 100%;
     max-width: 900px;
+    overflow-wrap: anywhere;
 }
 
+div.text a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
 
 div.text2 {
     flex: 0 1 900px;
@@ -205,6 +210,7 @@ p.cluh {
     background-color: #FFFFFF;
     box-sizing: border-box;
     padding: 20px;
+    overflow: hidden;
 }
 button {
 	background-color: FFFFFF; 
@@ -237,10 +243,10 @@ p.imag {
 }
 
 .back-to-top {
-    position: absolute;
+    position: fixed;
     right: 30px;
-    top: 110%;
-    transform: translateY(-50%);
+    bottom: 30px;
+    z-index: 1000;
 }
 
 .back-to-top img {
