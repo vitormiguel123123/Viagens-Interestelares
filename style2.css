@@ -7,15 +7,23 @@ body.abdul{
     min-height: 100vh;
   }
 h1.title {
-	font-family: "Century Gothic", Times, serif;
+    font-family: "Century Roman";
+    font-weight: bold;
 	color: black;
+	}
+h1.mayn {
+    font-family: "Allerta", sans-serif;
+    font-weight: bold;
+	font-size: 54px;
+	color: white;
 	}
 h4.subtitle { 
 	color: black;
 	font-family: "Century Gothic", Times, serif;
+	font-size: 10px;
 }
 h5 {
-	font-family: "Bakersville Old Face", serif
+	font-family: "Bakersville Old Face", serif;
 }
 li.img2 {
 	align-content: center-right;
@@ -32,7 +40,6 @@ div.conc {
     width: 900px;
     max-width: 90%;
     margin: 0 auto;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,10 +57,10 @@ div.conc {
 }
 
 div.imagem {
-    border: 10px solid black;
+
     width: 100%;
     max-width: 600px;
-    box-sizing: border-box;
+
 }
 
 div.imagem img {
@@ -94,7 +101,6 @@ h1.thing {
     font-style: italic;
     margin-top: 0;
 }
-
 p.cluh {
     color: black;
     font-family: "Modern";
@@ -213,10 +219,6 @@ textarea {
 img{
 	width: 30%
 }
-h1.title {
-	font-family: "Century Gothic", Times, serif;
-	color: black;
-	}
 h4.subtitle { 
 	color: black;
 	font-family: "Century Gothic", Times, serif;
@@ -337,6 +339,7 @@ button {
 .foot h5 {
     margin: 0;
 	font-family: "Arial";
+	font-size: 15px;
 }
 p.imag {
 	font-family: "Arial";
