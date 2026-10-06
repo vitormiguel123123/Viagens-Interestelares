@@ -350,15 +350,15 @@ p.imag {
 }
 
 .back-to-top {
-    position: absolute;
+    position: fixed;
     right: 30px;
-    top: 110%;
-    transform: translateY(-50%);
+    bottom: 30px;
+    z-index: 1000;
 }
 
 .back-to-top img {
     width: 45px;
-    height: 45px;
+    height: 50px;
     object-fit: contain;
     cursor: pointer;
 }
