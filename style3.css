@@ -44,7 +44,7 @@ body.biblio {
 h1.main {
     font-family: "Allerta", sans-serif;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 52px;
     line-height: 0.95;
     margin-bottom: 25px;
 	color: white;
@@ -115,6 +115,10 @@ h4.subtitle {
 h5 {
 	font-family: "Bakersville Old Face", serif
 }
+h5.rod {
+	font-family: "Bakersville Old Face", serif;
+	font-size: 13px;
+}
 li.img2 {
 	align-content: center-right;
 	background-color: #f8f9fa; 
@@ -176,8 +180,13 @@ div.fogue img {
 div.text {
     width: 100%;
     max-width: 900px;
+    overflow-wrap: anywhere;
 }
 
+div.text a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
 
 div.text2 {
     flex: 0 1 900px;
@@ -201,6 +210,7 @@ p.cluh {
     background-color: #FFFFFF;
     box-sizing: border-box;
     padding: 20px;
+    overflow: hidden;
 }
 button {
 	background-color: FFFFFF; 
@@ -233,10 +243,10 @@ p.imag {
 }
 
 .back-to-top {
-    position: absolute;
+    position: fixed;
     right: 30px;
-    top: 110%;
-    transform: translateY(-50%);
+    bottom: 30px;
+    z-index: 1000;
 }
 
 .back-to-top img {
