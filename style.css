@@ -1,3 +1,4 @@
+
 body.home {
     background-image: url("img/cinema.jpg");
     background-size: cover;
@@ -129,6 +130,21 @@ div.imagem {
 	object-fit: cover;
 	vertical-align: middle;
 }
+img.spacex {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+div.conc2 {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;
+}
 div.conc {
     width: 900px;
     max-width: 90%;
@@ -139,27 +155,38 @@ div.conc {
     justify-content: center;
     gap: 30px;
 }
-div.conc {
-    width: 900px;
-    max-width: 90%;
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    gap: 20px;
-}
 
 div.imagem {
-    width: 100%;
-    max-width: 900px;
-    box-sizing: border-box;
+    width: 40%;
+    flex-shrink: 0;
 }
 
 div.imagem img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+div.text {
+    width: 60%;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+div.text2 {
+    width: 100%;
+    max-width: 900px;
+    overflow-wrap: anywhere;
+}
+
+p.cluh {
+    color: black;
+    font-family: "Modern";
+    text-align: left;
+}
+
+p.imag {
+    font-family: "Arial";
+    font-size: 12px;
 }
 div.fogue {
 	width: 900px;
@@ -260,4 +287,14 @@ p.imag {
 }
 .ul dropdown-menu show {
 	width: 250px
+}
+@media (max-width: 300px) {
+    div.conc {
+        flex-direction: column;
+    }
+
+    div.imagem,
+    div.text {
+        width: 100%;
+    }
 }
