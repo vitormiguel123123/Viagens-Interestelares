@@ -17,6 +17,12 @@ h1.mayn {
 	font-size: 54px;
 	color: white;
 	}
+h1.mayn2 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+	font-size: 54px;
+	color: black;
+	}
 h4.subtitle { 
 	color: black;
 	font-family: "Century Gothic", Times, serif;
@@ -96,7 +102,7 @@ div.text2 {
 
 h1.thing {
     color: black;
-    font-family: "Old English Text MT";
+    font-family: "Trebuchet";
     font-weight: bold;
     font-style: italic;
     margin-top: 0;
@@ -105,13 +111,26 @@ p.cluh {
     color: black;
     font-family: "Modern";
 }
+p.cluh2 {
+    color: black;
+    font-family: "Modern";
+	font-size: 12px;
+}
+.table-space {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.table-space th,
+.table-space td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
 .content-card {
     width: 80%;
-    max-width: 1000px;
-    margin: 50px auto;
-    background-color: #FFFFFF;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 10px;
 }
 body.home {
     background-image: url("img/cinema.jpg");
