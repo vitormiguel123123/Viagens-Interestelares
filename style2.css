@@ -20,7 +20,7 @@ h1.mayn {
 h1.mayn2 {
     font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
-    font-size: clamp(24px, 5vw, 54px);
+    font-size: 70%
     color: black;
     line-height: 1.15;
     overflow-wrap: break-word;
