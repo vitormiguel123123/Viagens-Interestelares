@@ -20,9 +20,13 @@ h1.mayn {
 h1.mayn2 {
     font-family: "Trebuchet MS", sans-serif;
     font-weight: bold;
-	font-size: 54px;
-	color: black;
-	}
+    font-size: clamp(24px, 5vw, 54px);
+    color: black;
+    line-height: 1.15;
+    overflow-wrap: break-word;
+    text-align: center;
+    max-width: 100%;
+}
 h4.subtitle { 
 	color: black;
 	font-family: "Century Gothic", Times, serif;
@@ -114,7 +118,7 @@ p.cluh {
 p.cluh2 {
     color: black;
     font-family: "Modern";
-	font-size: 12px;
+	font-size: px;
 }
 .table-space {
     border-collapse: collapse;
@@ -395,4 +399,11 @@ p.imag {
 	display: inline-block;
 	font-size: 30px;
 	font-family: "Modern";
+}
+
+h1.thing {
+    font-size: clamp(20px, 3.5vw, 27px) !important;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    max-width: 100%;
 }
